@@ -29,7 +29,14 @@
 
 <main>
 
-<button class="ml-5" type="button" onclick="game()">Jouer</button>
+  <form class="ml-5 mt-5" name='formulaire'>
+Entrez votre pseudo : <input type='text' name='text'>
+<input type='button' onClick='donnees()' value='OK' ><br>
+
+<p class="mt-5 text-center" id='result'></p>
+</form>
+
+<button class="ml-5 mt-5" type="button" onclick="game()">Jouer</button>
 <div class="result ml-5">
   <p id="choixJoueur"></p>
   <p id="choixOrdi"></p>
@@ -40,6 +47,12 @@
   <p id="pointJoueur"></p>
   <p id="pointOrdi"></p>
   <p id="winner"></p>
+</div>
+
+<div class="">
+  <img src="img/pierre.png" alt="pierre">
+  <img src="img/feuille.png" alt="feuille">
+  <img src="img/ciseaux.png" alt="ciseaux">
 </div>
 
 </main>
