@@ -21,22 +21,15 @@ main p {
  font-size: 20px;
 }
 
-.result {
-  margin-top: 120px;
-}
-
 body h1 {
   font-family: "monkey";
 }
 
-main button {
-  border-radius: 10px;
-background-color: black;
-border: black;
-color: white;
-font-family: "cursive";
-width: 150px;
-height: 50px;
-font-weight: bold;
-font-size: 25px;
+
+.images {
+  display: inline-flex;
+}
+
+.images img {
+  width: 120px;
 }
