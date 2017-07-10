@@ -27,7 +27,6 @@
 
         <h1 class="text-center">Jeu - Pierre,Feuille,Ciseaux</h1>
 
-<main>
 
   <form class="ml-5 mt-5" name='formulaire'>
 Entrez votre pseudo : <input type='text' name='text'>
@@ -36,13 +35,30 @@ Entrez votre pseudo : <input type='text' name='text'>
 <p class="mt-5 text-center" id='result'></p>
 </form>
 
-
+<main  class="container" id="corps">
+  <div class="row">
 <div class="images">
   <img class="gamePicture" src="img/pierre.png" alt="pierre">
   <img class="gamePicture" src="img/feuille.png" alt="feuille">
   <img class="gamePicture" src="img/ciseaux.png" alt="ciseaux">
 </div>
 
+<div class="secondImages">
+  <img src="img/pierre.png" alt="pierre">
+  <img src="img/feuille.png" alt="feuille">
+  <img src="img/ciseaux.png" alt="ciseaux">
+</div>
+
+<div class="ml-5">
+<p id="choixJoueur"></p>
+<p id="choixOrdi"></p>
+<p id="resultat"></p>
+<p id="pointJoueur"></p>
+<p id="pointOrdi"></p>
+<p id="winner"></p>
+</div>
+
+</div>
 </main>
 
 

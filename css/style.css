@@ -8,12 +8,11 @@
   src: url(../font/cursive/Cursivestandard.ttf);
 }
 
-main {
+#corps {
   display: flex;
 flex-direction: column;
-width: 50%;
 align-items: center;
-
+margin: 0 auto;
 }
 
 main p {
@@ -30,6 +29,10 @@ body h1 {
   display: inline-flex;
 }
 
-.images img {
-  width: 120px;
+.secondImages {
+  margin-top: 150px;
 }
+
+/*.images img {
+  width: 120px;
+}*/
