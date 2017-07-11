@@ -26,14 +26,23 @@ if (pointUser < 3 && pointComputer <  3) {
   if (computer === 1) {
     computer="pierre";
     document.getElementById("jeu").src ="img/pierre.png"
+    // document.getElementById("jeu").style.transform = "translateY(-30px)";
+    setTimeout(function(){document.getElementById("jeu").style.transform = "translateY(-110px)";
+},1000);
   }
   else if (computer === 2) {
     computer="feuille";
     document.getElementById("jeu").src ="img/feuille.png"
+    // document.getElementById("jeu").style.transform = "translateY(-30px)";
+    setTimeout(function(){document.getElementById("jeu").style.transform = "translateY(-110px)";
+  },1000);
   }
   else {
     computer="ciseaux";
     document.getElementById("jeu").src ="img/ciseaux.png"
+    // document.getElementById("jeu").style.transform = "translateY(-30px)";
+    setTimeout(function(){document.getElementById("jeu").style.transform = "translateY(-110px)";
+  },1000);
   }
 
 
@@ -74,7 +83,7 @@ if (pointUser < 3 && pointComputer <  3) {
   }
 
   else {
-    document.getElementById("winner").innerHTML ="Tu as perdu la partie !";
+    document.getElementById("winner").innerHTML ="Tu as perdu la partie!";
   }
 
 }

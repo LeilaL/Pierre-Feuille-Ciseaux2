@@ -46,8 +46,9 @@ height: 40px;
 }
 
 .secondImages {
-  margin-top: 150px;
-  display: flex;
+  position: absolute;
+  top: 200px;
+  margin-left: 100px;
 }
 
 main img {
@@ -62,7 +63,6 @@ margin-left: 30px;
 
 #jeu {
   width: 160px;
-  margin: 0 auto;
 }
 
 @media (min-width: 800px) {
