@@ -25,15 +25,17 @@ if (pointUser < 3 && pointComputer <  3) {
 
   if (computer === 1) {
     computer="pierre";
+    document.getElementById("jeu").src ="img/pierre.png"
   }
   else if (computer === 2) {
     computer="feuille";
+    document.getElementById("jeu").src ="img/feuille.png"
   }
   else {
     computer="ciseaux";
+    document.getElementById("jeu").src ="img/ciseaux.png"
   }
 
-  document.getElementById("choixOrdi").innerHTML ="l'Ordinateur: " + computer;
 
   if (user === computer) {
   }
@@ -74,6 +76,5 @@ if (pointUser < 3 && pointComputer <  3) {
   else {
     document.getElementById("winner").innerHTML ="Tu as perdu la partie !";
   }
-
 
 }
